@@ -13,6 +13,9 @@
 		EF2620BA245CA2BD00A94936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2620B9245CA2BD00A94936 /* Assets.xcassets */; };
 		EF2620BD245CA2BD00A94936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2620BC245CA2BD00A94936 /* Preview Assets.xcassets */; };
 		EF2620C0245CA2BD00A94936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2620BE245CA2BD00A94936 /* LaunchScreen.storyboard */; };
+		EF2620EA245E390B00A94936 /* ClassWork2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2620E9245E390B00A94936 /* ClassWork2.swift */; };
+		EF2620EC245E3C2300A94936 /* ClassWork3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2620EB245E3C2300A94936 /* ClassWork3.swift */; };
+		EF2620EE245E3C9200A94936 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2620ED245E3C9200A94936 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EF2620BC245CA2BD00A94936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF2620BF245CA2BD00A94936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2620C1245CA2BD00A94936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2620E9245E390B00A94936 /* ClassWork2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWork2.swift; sourceTree = "<group>"; };
+		EF2620EB245E3C2300A94936 /* ClassWork3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassWork3.swift; sourceTree = "<group>"; };
+		EF2620ED245E3C9200A94936 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				EF2620B3245CA2BD00A94936 /* AppDelegate.swift */,
 				EF2620B5245CA2BD00A94936 /* SceneDelegate.swift */,
+				EF2620ED245E3C9200A94936 /* Model.swift */,
 				EF2620B7245CA2BD00A94936 /* ContentView.swift */,
+				EF2620E9245E390B00A94936 /* ClassWork2.swift */,
+				EF2620EB245E3C2300A94936 /* ClassWork3.swift */,
 				EF2620B9245CA2BD00A94936 /* Assets.xcassets */,
 				EF2620BE245CA2BD00A94936 /* LaunchScreen.storyboard */,
 				EF2620C1245CA2BD00A94936 /* Info.plist */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2620EC245E3C2300A94936 /* ClassWork3.swift in Sources */,
 				EF2620B4245CA2BD00A94936 /* AppDelegate.swift in Sources */,
 				EF2620B6245CA2BD00A94936 /* SceneDelegate.swift in Sources */,
+				EF2620EE245E3C9200A94936 /* Model.swift in Sources */,
+				EF2620EA245E390B00A94936 /* ClassWork2.swift in Sources */,
 				EF2620B8245CA2BD00A94936 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				DEVELOPMENT_TEAM = 7K3JE8ZT37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestDay1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				DEVELOPMENT_TEAM = 7K3JE8ZT37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestDay1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
